@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+a, p, h2, h3, button {
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: #137e6d;
+}
+
+.navbar-top {
+	background-color: #f2ffe9;
+	color: #137e6d;
+	border-style: none;
+	border-radius: 7px;
+}
+
+.navigasi:hover {
+	color: #a1c9c2 !important;
+}
+
+.navbar-top:hover {
+	color: #076335;
+}
+
+.jumbotron {
+	width: 100%;
+	display: inline-block;
+	padding-top: 2rem;
+	background-color: #dbf4d8;
+	color: #137e6d;
+}
+
+.jumbotron  img {
+	float: right;
+	padding-top: 1rem;
+}
+
+.jumbotron > .container {
+	padding-top: 5rem;
+}
+
+.klik-disini > a:hover {
+	background-color: #076335 !important;
+}
+
+.angka-discount {
+	height: 150px;
+	width: 150px;
+	border: solid;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 35px;
+	margin-left: 15rem;
+	margin-top: -60px;
+	position: absolute;
+}
+
+.klik-disini-1 {
+	background-color: #137e6d;
+	border-style: none;
+	border-radius: 7px;
+	width: 120px;
+}
+
+.design {
+	margin-top: 3rem;
+	background-color: white;
+	color:#137e6d;
+}
+
+.design > .container-fluid {
+	padding-left: 25px;
+}
+
+/* Animasi */
+
+.design-teks {
+	opacity: 0;
+ 	transform: translate(-20%, 0);
+ 	transition: 2s;
+}
+
+.design-teks.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+.design-lainnya {
+	margin-top: -60px;
+	margin-right: 4rem;
+}
+
+.design-lainnya > a:hover {
+	background-color: #076335 !important;
+}
+
+.design-lainnya-1 {
+	background-color: #137e6d;
+	border-style: none;
+	border-radius: 7px;
+	width: 170px;
+}
+/* Animasi */
+
+.design-lainnya-1 {
+	opacity: 0;
+ 	transform: translate(100%, 0);
+ 	transition: 2s;
+}
+
+.design-lainnya-1.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+
+.cd {
+	margin-top: 1rem;
+}
+
+.card {
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.30) 1.95px 1.95px 2.6px;
+	background-color: #dbf4d8;
+}
+
+/* Animasi */
+
+.design-card {
+  opacity: 0;
+  transform: translate(0, 40%);
+  transition: .5s;
+}
+
+.design-card.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+.card > .card-body > .card-text {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.card .btn {
+	background-color: #137e6d;
+	color: white;
+	width: 120px;
+	margin-top: 99%;
+	justify-content: space-between;
+
+}
+
+.card > .card-body > .card-text > a:hover {
+	background-color: #076335 !important;
+}
+
+.fitur {
+	position: relative;
+	margin-top: 5rem;
+	background-color: #137e6d;
+	color: white;
+}
+
+.fitur > .container-fluid {
+	padding-left: 2rem;
+}
+
+
+/* Animasi */
+
+.fitur-judul {
+	opacity: 0;
+ 	transform: translate(0, 80%);
+ 	transition: 4s;
+}
+
+.fitur-judul.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.galeri {
+	opacity: 0;
+ 	transform: translate(100%, 0);
+ 	transition: 2s;
+}
+
+.galeri.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.kartu-ucapan {
+	opacity: 0;
+ 	transform: translate(100%, 0);
+ 	transition: 2s;
+}
+
+.kartu-ucapan.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.kalender {
+	opacity: 0;
+ 	transform: translate(0, 0);
+ 	transition: 5s;
+}
+
+.kalender.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.amplop {
+	opacity: 0;
+ 	transform: translate(0, 0);
+ 	transition: 5s;
+}
+
+.amplop.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.lokasi {
+	opacity: 0;
+ 	transform: translate(-100%, 0);
+ 	transition: 2s;
+}
+
+.lokasi.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.music {
+	opacity: 0;
+ 	transform: translate(-100%, 0);
+ 	transition: 2s;
+}
+
+.music.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+.harga {
+	padding-top: 2.4rem;
+	padding-bottom: 2rem;
+	color: #137e6d;
+}
+
+
+/* Animasi */
+
+.harga-card , .harga-title {
+  opacity: 0;
+  transform: translate(0, 40%);
+  transition: 1s;
+}
+
+.harga-card.muncul , .harga-title.muncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+.pemesanan {
+	position: relative;
+	background-color: #137e6d;
+	color: #f2ffe9;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.pt , .lk , .usp {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+/* Animasi */
+
+/* Cara Pemesanan */
+
+.cp {
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 1.5s;
+}
+
+.cp.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}*/
+
+/* --  */
+/* Pilh Tema */
+
+.pt {
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 1.5s;
+}
+
+.pt.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/* -- */
+/* Lakukan Pembayaran */
+
+.lk {
+  opacity: 0;
+  transform: translate(0, 40%);
+  transition: .5s;
+}
+
+.lk.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+*/
+/* -- */
+/* Undangan Siap Digunakan */
+
+.usp {
+  opacity: 0;
+  transform: translate(0, 40%);
+  transition: .5s;
+}
+
+.usp.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/* --
+/* Tutup Animasi */
+
+
+.testi {
+	color: #137e6d;
+}
+
+/* Animasi */
+
+.testi-card {
+  opacity: 0;
+  transform: translate(0, 40%);
+  transition: 2s;
+}
+
+.testi-card.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+/* Tutup Animasi */
+
+.foto {
+	height: 50px;
+	width: 50px;
+	border: solid;
+	border-radius: 50%;
+	margin-left: 45%;
+}
+
+footer {
+	position: relative;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #137e6d;
+	color: #f2ffe9;
+	display: inherit;
+}
+
+.fa-cart{
+	justify-content: space-beetween
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+	.design-lainnya {
+		margin-top: 1rem;
+	}
+
+	.pt , .lk , .usp {
+		padding: 0;
+	}
+}
