@@ -262,12 +262,12 @@
 			<div class="col">
 				<div class="card h-100 testi-card">
 					<div class="card-body">
-					    <div class="foto">
-					    	<p class="text-center">Foto</p>
+					    <div class="test">
+					    	<img class="rounded-circle rounded mx-auto d-block" src="img/card4.jpg" alt="">
 					    </div>
 							<h2 class="fw-bold text-center">Alex</h2>
 								<hr>
-									<p class="card-text text-center">Harga sangat terjangkau</p>
+									<p class="card-text text-center">Keren dan sangat menarik</p>
 					</div>
 				</div>
 			</div>
@@ -275,8 +275,8 @@
 			<div class="col">
 				<div class="card  testi-card">
 					<div class="card-body">
-					    <div class="foto">
-					    	<p class="text-center">Foto</p>
+						<div class="test">
+							<img class="rounded-circle rounded mx-auto d-block" src="img/card2.jpg" alt="">
 					    </div>
 							<h2 class="fw-bold text-center">Rojak</h2>
 								<hr>
@@ -288,12 +288,12 @@
 			<div class="col">
 				<div class="card h-100 testi-card">
 					<div class="card-body">
-					    <div class="foto">
-					    	<p class="text-center">Foto</p>
+						<div class="test">
+							<img class="rounded-circle center rounded mx-auto d-block" src="img/card1.jpg" alt="">
 					    </div>
 							<h2 class="fw-bold text-center">Sholihin</h2>
 								<hr>
-									<p class="card-text text-center">Harga sangat terjangkau</p>
+									<p class="card-text text-center">Murah tapi tidak murahan</p>
 					</div>
 				</div>
 			</div>
