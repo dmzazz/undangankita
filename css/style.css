@@ -8,7 +8,7 @@ a, p, h2, h3, button {
 }
 
 nav {
-	background-color: #137e6d;
+	background-color: #137e6d;;
 }
 
 .navbar-top {
@@ -29,8 +29,8 @@ nav {
 .jumbotron {
 	width: 100%;
 	display: inline-block;
-	padding-top: 2rem;
-	background-color: #dbf4d8;
+	margin-top: 2rem;
+	background-color: #F2FFE9;
 	color: #137e6d;
 }
 
@@ -67,14 +67,32 @@ nav {
 	width: 120px;
 }
 
+.path-1 {
+	position: absolute;
+	padding-left: 40%;
+}
+
+.path-2 {
+	position: absolute;
+	padding-left: 40%;
+}
+
+.path-3 {
+	position: absolute;
+	margin-top: 183px;
+	padding-left: 40%;
+}
+
+.path-4 {
+	position: absolute;
+	margin-top: 183px;
+	padding-left: 83.2%;
+}
+
 .design {
 	margin-top: 3rem;
 	background-color: white;
 	color:#137e6d;
-}
-
-.design > .container-fluid {
-	padding-left: 25px;
 }
 
 /* Animasi */
@@ -156,12 +174,16 @@ nav {
 }
 
 .card .btn {
+	position: absolute;
 	background-color: #137e6d;
 	color: white;
-	width: 120px;
-	margin-top: 99%;
-	justify-content: space-between;
+	width: 180px;
+}
 
+.tema {
+	position: absolute;
+	top: 90%;
+	left: 20%;
 }
 
 .card > .card-body > .card-text > a:hover {
@@ -377,8 +399,8 @@ nav {
 /* Tutup Animasi */
 
 .foto {
-	height: 50px;
-	width: 50px;
+	height: 200px;
+	width: 200px;
 	border: solid;
 	border-radius: 50%;
 	margin-left: 45%;
@@ -394,8 +416,13 @@ footer {
 	display: inherit;
 }
 
+footer a {
+	text-decoration: none;
+	color: #f2ffe9;
+}
+
 .fa-cart{
-	justify-content: space-beetween
+	justify-content: space-beetween;
 }
 
 /* Responsive */
@@ -408,7 +435,20 @@ footer {
 	.pt , .lk , .usp {
 		padding: 0;
 	}
+
+	.path-1 , .path-2 , .path-3 {
+		visibility: hidden;
+	}
+
+	.tema {
+		left: 25%;
+	}
 }
 
 
 	
+@media only screen and (max-width: 1500px) {
+	.path-1 , .path-2 , .path-3 , .path-4 {
+		visibility: hidden;
+	}
+}

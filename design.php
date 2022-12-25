@@ -30,34 +30,34 @@
 
 					<div class="cd row row-cols-1 row-cols-md-4 g-4 text-center">
 					  <div class="col">
-					    <div class="card h-100  design-card">
-					      <img src="images/download.jpg" class="card-img-top" alt="...">
+					    <div class="card design-card">
+					      <img src="img/card1.jpg" class="card-img-top" alt="...">
 					      <div class="card-body">
-					        <p class="card-text"><a href="#" class="btn fw-bold">Tema 1</a></p>
+					        <p class="card-text"><a href="#" class="tema btn fw-bold">Tema 1</a></p>
 					      </div>
 					    </div>
 					  </div>
 					  <div class="col">
-					    <div class="card h-100  design-card">
-					      <img src="images/download.jpg" class="card-img-center" alt="...">
+					    <div class="card design-card">
+					      <img src="img/card1.jpg" class="card-img-center" alt="...">
 					      <div class="card-body">
-					        <p class="card-text"><a href="#" class="btn fw-bold">Tema 2</a></p>
+					        <p class="card-text"><a href="#" class="tema btn fw-bold">Tema 2</a></p>
 					      </div>
 					    </div>
 					  </div>
 					  <div class="col">
-					    <div class="card h-100  design-card">
-					      <img src="images/download.jpg" class="card-img-center" alt="...">
+					    <div class="card design-card">
+					      <img src="img/card1.jpg" class="card-img-center" alt="...">
 					      <div class="card-body">
-					        <p class="card-text"><a href="#" class="btn fw-bold">Tema 3</a></p>
+					        <p class="card-text"><a href="#" class="tema btn fw-bold">Tema 3</a></p>
 					      </div>
 					    </div>
 					  </div>
 					  <div class="col">
-					    <div class="card h-100  design-card">
-					      <img src="images/download.jpg" class="card-img-center" alt="...">
+					    <div class="card design-card">
+					      <img src="img/card1.jpg" class="card-img-center" alt="...">
 					      <div class="card-body">
-					        <p class="card-text"><a href="#" class="btn fw-bold">Tema 4</a></p>
+					        <p class="card-text"><a href="#" class="tema btn fw-bold">Tema 4</a></p>
 					      </div>
 					    </div>
 					  </div>

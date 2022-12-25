@@ -6,7 +6,7 @@
 </head>
 <body>
 <footer>
-	<p class="fs-3 fw-bold text-center">UndanganKita.com</p>
+	<p class="fs-5 fw-bold text-center">2022 © UndanganKita.com Made with ♥ by <a href="https://me.dymas.my.id">me.dymas.my.id</a></p>
 </footer>
 </body>
 </html>
